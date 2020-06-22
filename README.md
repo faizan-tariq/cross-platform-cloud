@@ -17,3 +17,22 @@ Implementation of Gateway Routing Cloud Pattern using AWS API Gateway (https://p
 #### Ambassador
 Created helper AWS lamba service using nodeJS that can send a request on behalf of a consumer service to S3 Bucket to fetch images.
 (https://r3aazmii2f.execute-api.us-east-1.amazonaws.com/dev?key=1)
+
+
+#### Backends for Frontends
+Done
+
+#### Cache-Aside
+Done 
+
+#### Health Endpoint Monitoring
+isAlive and isHealthy endpoints and make them part of CI/CD pipeline.
+
+#### Publisher/Subscriber
+Loader & Processor 
+
+### Retry
+Using FailSafe
+
+### Asynchronous Request-Reply
+Done
