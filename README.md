@@ -11,28 +11,28 @@
 For understanding the concept and details of these patterns i followed following links:
 https://docs.microsoft.com/en-us/azure/architecture/patterns/
 
-#### Gateway Routing
+#### 1) Gateway Routing
 Implementation of Gateway Routing Cloud Pattern using AWS API Gateway (https://p2dwem8tr9.execute-api.us-east-1.amazonaws.com/test) providing a gateway to separate microservices indepdent of their underline technology 1) http://spring-get-players.herokuapp.com/players 2) https://jsonplaceholder.typicode.com/users/
 
-#### Ambassador
+#### 2) Ambassador
 Created helper AWS lamba service using nodeJS that can send a request on behalf of a consumer service to S3 Bucket to fetch images.
 (https://r3aazmii2f.execute-api.us-east-1.amazonaws.com/dev?key=1)
 
 
-#### Backends for Frontends
+#### 3) Backends for Frontends
 Done
 
-#### Cache-Aside
+#### 4) Cache-Aside
 Done 
 
-#### Health Endpoint Monitoring
+#### 5) Health Endpoint Monitoring
 isAlive and isHealthy endpoints and make them part of CI/CD pipeline.
 
-#### Publisher/Subscriber
+#### 6)Publisher/Subscriber
 Loader & Processor 
 
-### Retry
+#### 7) Retry
 Using FailSafe
 
-### Asynchronous Request-Reply
+#### 8) Asynchronous Request-Reply
 Done
