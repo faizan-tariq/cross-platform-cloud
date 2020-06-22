@@ -12,8 +12,7 @@ For understanding the concept and details of these patterns i followed following
 https://docs.microsoft.com/en-us/azure/architecture/patterns/
 
 #### Gateway Routing
-
-* Implementation of Gateway Routing Cloud Pattern using AWS API Gateway (https://p2dwem8tr9.execute-api.us-east-1.amazonaws.com/test) providing a gateway to separate microservices indepdent of their underline technology 1) http://spring-get-players.herokuapp.com/players 2) https://jsonplaceholder.typicode.com/users/
+Implementation of Gateway Routing Cloud Pattern using AWS API Gateway (https://p2dwem8tr9.execute-api.us-east-1.amazonaws.com/test) providing a gateway to separate microservices indepdent of their underline technology 1) http://spring-get-players.herokuapp.com/players 2) https://jsonplaceholder.typicode.com/users/
 
 #### Ambassador
 Created helper AWS lamba service using nodeJS that can send a request on behalf of a consumer service to S3 Bucket to fetch images.
