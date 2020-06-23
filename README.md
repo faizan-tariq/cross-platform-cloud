@@ -4,7 +4,7 @@
 * Java Spring Boot based microservice using h2 in-memory database deployed on Heroku using single dyno.(http://spring-get-players.herokuapp.com/players)
 
 #### Microservice #2 (NodeJs / AWS Lamba)
-* Amazon based microservice using AWS Lambda and AWS API Gateway using secure S3 cloud Storage. (https://r3aazmii2f.execute-api.us-east-1.amazonaws.com/dev?key=1)
+* Amazon based microservice using AWS Lambda and AWS API Gateway accessing secure S3 cloud Storage. (https://r3aazmii2f.execute-api.us-east-1.amazonaws.com/dev?key=1)
 
 
 ### Cloud Native Pattern 
