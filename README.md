@@ -18,22 +18,3 @@ There 2 seperate services are not being accessed via same api gateway as https:/
 #### 2) Ambassador
 Created helper AWS lamba service using nodeJS that can send a request on behalf of a consumer service to S3 Bucket to fetch images.
 (https://r3aazmii2f.execute-api.us-east-1.amazonaws.com/dev?key=1)
-
-
-#### 3) Backends for Frontends
-Done
-
-#### 4) Cache-Aside
-Done 
-
-#### 5) Health Endpoint Monitoring
-isAlive and isHealthy endpoints and make them part of CI/CD pipeline.
-
-#### 6)Publisher/Subscriber
-Loader & Processor 
-
-#### 7) Retry
-Using FailSafe
-
-#### 8) Asynchronous Request-Reply
-Done
